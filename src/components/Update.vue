@@ -2,7 +2,7 @@
     import {ref, reactive, onMounted} from 'vue'
 
     let teams = reactive(["Porsche", "Ferrari", "McLaren", "Mercedes", "Bmw"]);
-    let team = ref("null");
+    let team = ref("Porsche");
     let score = ref("");
     let socketServer = null;
 
