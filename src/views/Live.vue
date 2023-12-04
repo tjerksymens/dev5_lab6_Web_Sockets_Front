@@ -1,9 +1,11 @@
 <script setup>
-
+import Live from '../components/Live.vue'
 </script>
 
 <template>
-  <h1>Live Score</h1>
+  <div>
+    <Live/>
+  </div>
 </template>
 
 <style scoped>
